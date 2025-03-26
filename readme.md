@@ -1,6 +1,4 @@
-# 使用Go构建分布式服务
-
-
+# 使用 Go 构建分布式服务
 
 ## 运行
 
@@ -11,14 +9,14 @@ go run main.go
 
 ## 测试
 
-使用HTTPie发送post请求，请求地址`http://locahost:8080`
+使用 HTTPie 发送 post 请求，请求地址`http://locahost:8080`
 
 请求参数:
 
 ```json
 {
   "record": {
-    "value":"tertet"
+    "value": "tertet"
   }
 }
 ```
@@ -32,4 +30,4 @@ go run main.go
 ...
 ```
 
-每次请求offset的值都会递增
+每次请求 offset 的值都会递增
