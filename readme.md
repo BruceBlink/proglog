@@ -23,7 +23,7 @@ go run main.go
 
 响应参数：
 
-```
+```text
 {"offset":0}
 {"offset":1}
 {"offset":2}
